@@ -1,12 +1,12 @@
 {
-  "homepage": "https://mulu1234.github.io/NETFLIX-CLONE",
+  "/homepage": "https://mulu1234.github.io/netflix-mulu",
   "name": "netflix",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "Predeploy":"npm run build",
+    "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
