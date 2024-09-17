@@ -4,14 +4,8 @@ import Banner from './Compononents/Banner.jsx';
 import Row from "./Compononents/Row.jsx"
 import requests from './requests.jsx';
 import Nav from './Compononents/Nav.jsx';
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
 
-export default defineConfig({
-  plugins: [react()],
-  base: "/netflix-mulu/",
-});
 function App() {
 
 
