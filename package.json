@@ -1,4 +1,3 @@
-
 {
   "homepage": "https://mulu1234.github.io/netflix-mulu/",
   "name": "netflix",
@@ -7,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
